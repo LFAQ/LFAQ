@@ -1,0 +1,6 @@
+PeptideIndex	PeptideIntensity	
+1	194281	
+2	1262700	
+3	704674	
+4	271953	
+5	316006	

@@ -1,0 +1,17 @@
+G:\InHouseSourceCode\LFAQ\LFAQGUI\LFAQ\bin\x64\Debug\LFAQ.exe.config
+G:\InHouseSourceCode\LFAQ\LFAQGUI\LFAQ\bin\x64\Debug\LFAQ.exe
+G:\InHouseSourceCode\LFAQ\LFAQGUI\LFAQ\bin\x64\Debug\LFAQ.pdb
+G:\InHouseSourceCode\LFAQ\LFAQGUI\LFAQ\obj\x64\Debug\MainWindow.baml
+G:\InHouseSourceCode\LFAQ\LFAQGUI\LFAQ\obj\x64\Debug\SetRegularExpression.baml
+G:\InHouseSourceCode\LFAQ\LFAQGUI\LFAQ\obj\x64\Debug\SetStandProteins.baml
+G:\InHouseSourceCode\LFAQ\LFAQGUI\LFAQ\obj\x64\Debug\MainWindow.g.cs
+G:\InHouseSourceCode\LFAQ\LFAQGUI\LFAQ\obj\x64\Debug\SetRegularExpression.g.cs
+G:\InHouseSourceCode\LFAQ\LFAQGUI\LFAQ\obj\x64\Debug\SetStandProteins.g.cs
+G:\InHouseSourceCode\LFAQ\LFAQGUI\LFAQ\obj\x64\Debug\App.g.cs
+G:\InHouseSourceCode\LFAQ\LFAQGUI\LFAQ\obj\x64\Debug\LFAQ_MarkupCompile.cache
+G:\InHouseSourceCode\LFAQ\LFAQGUI\LFAQ\obj\x64\Debug\LFAQ.g.resources
+G:\InHouseSourceCode\LFAQ\LFAQGUI\LFAQ\obj\x64\Debug\LFAQ.Properties.Resources.resources
+G:\InHouseSourceCode\LFAQ\LFAQGUI\LFAQ\obj\x64\Debug\LFAQ.csproj.GenerateResource.Cache
+G:\InHouseSourceCode\LFAQ\LFAQGUI\LFAQ\obj\x64\Debug\LFAQ.exe
+G:\InHouseSourceCode\LFAQ\LFAQGUI\LFAQ\obj\x64\Debug\LFAQ.pdb
+G:\InHouseSourceCode\LFAQ\LFAQGUI\LFAQ\obj\x64\Debug\LFAQ.csprojResolveAssemblyReference.cache

@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="load.cpp" />
+    <ClCompile Include="DataIO.cpp" />
+    <ClCompile Include="loadParam.cpp" />
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="ControlledVocabulary.cpp">
+      <Filter>mzQuantML</Filter>
+    </ClCompile>
+    <ClCompile Include="MzQuantMLHandler.cpp">
+      <Filter>mzQuantML</Filter>
+    </ClCompile>
+    <ClCompile Include="QuantInformation.cpp">
+      <Filter>mzQuantML</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ProteinAbsoluteQuan\BasicClass.cpp" />
+    <ClCompile Include="..\ProteinAbsoluteQuan\CLog.cpp" />
+    <ClCompile Include="XMLHandler.cpp">
+      <Filter>mzQuantML</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DataIO.h" />
+    <ClInclude Include="loadParam.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="..\ProteinAbsoluteQuan\BasicClass.h" />
+    <ClInclude Include="..\ProteinAbsoluteQuan\CLog.h" />
+    <ClInclude Include="ControlledVocabulary.h">
+      <Filter>mzQuantML</Filter>
+    </ClInclude>
+    <ClInclude Include="MzQuantMLHandler.h">
+      <Filter>mzQuantML</Filter>
+    </ClInclude>
+    <ClInclude Include="QuantInformation.h">
+      <Filter>mzQuantML</Filter>
+    </ClInclude>
+    <ClInclude Include="XMLHandler.h">
+      <Filter>mzQuantML</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="mzQuantML">
+      <UniqueIdentifier>{fb49238d-f3aa-46eb-bde1-53b2e5a640ae}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

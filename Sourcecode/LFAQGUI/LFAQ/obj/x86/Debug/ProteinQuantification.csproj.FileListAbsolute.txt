@@ -1,0 +1,17 @@
+E:\ProteinQuantificationCode\ProteinQuantification\ProteinQuantification\bin\x86\Debug\ProteinQuantification.exe.config
+E:\ProteinQuantificationCode\ProteinQuantification\ProteinQuantification\bin\x86\Debug\ProteinQuantification.exe
+E:\ProteinQuantificationCode\ProteinQuantification\ProteinQuantification\bin\x86\Debug\ProteinQuantification.pdb
+E:\ProteinQuantificationCode\ProteinQuantification\ProteinQuantification\obj\x86\Debug\MainWindow.baml
+E:\ProteinQuantificationCode\ProteinQuantification\ProteinQuantification\obj\x86\Debug\SetRegularExpression.baml
+E:\ProteinQuantificationCode\ProteinQuantification\ProteinQuantification\obj\x86\Debug\SetStandProteins.baml
+E:\ProteinQuantificationCode\ProteinQuantification\ProteinQuantification\obj\x86\Debug\MainWindow.g.cs
+E:\ProteinQuantificationCode\ProteinQuantification\ProteinQuantification\obj\x86\Debug\SetRegularExpression.g.cs
+E:\ProteinQuantificationCode\ProteinQuantification\ProteinQuantification\obj\x86\Debug\SetStandProteins.g.cs
+E:\ProteinQuantificationCode\ProteinQuantification\ProteinQuantification\obj\x86\Debug\App.g.cs
+E:\ProteinQuantificationCode\ProteinQuantification\ProteinQuantification\obj\x86\Debug\ProteinQuantification_MarkupCompile.cache
+E:\ProteinQuantificationCode\ProteinQuantification\ProteinQuantification\obj\x86\Debug\ProteinQuantification.g.resources
+E:\ProteinQuantificationCode\ProteinQuantification\ProteinQuantification\obj\x86\Debug\ProteinQuantification.Properties.Resources.resources
+E:\ProteinQuantificationCode\ProteinQuantification\ProteinQuantification\obj\x86\Debug\ProteinQuantification.csproj.GenerateResource.Cache
+E:\ProteinQuantificationCode\ProteinQuantification\ProteinQuantification\obj\x86\Debug\ProteinQuantification.exe
+E:\ProteinQuantificationCode\ProteinQuantification\ProteinQuantification\obj\x86\Debug\ProteinQuantification.pdb
+E:\ProteinQuantificationCode\ProteinQuantification\ProteinQuantification\obj\x86\Debug\ProteinQuantification.csprojResolveAssemblyReference.cache

@@ -1,0 +1,26 @@
+﻿<Window x:Class="LFAQ.SetStandProteins"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Set standard proteins" Height="300" Width="300">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="10*"/>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
+        <DataGrid  Name="StandProteins_grid"  Grid.Row="0" ItemsSource="{Binding}" AutoGenerateColumns="False" >
+            <DataGrid.Columns>
+                <DataGridTextColumn Binding="{Binding strProteinName}" Header="Protein Id" Width="*" MinWidth="50" MaxWidth="200" />
+                <DataGridTextColumn Binding="{Binding dAmount}" Header="Amounts" Width="*" MinWidth="50" MaxWidth="200"/>
+            </DataGrid.Columns>
+        </DataGrid>
+        <Button Content="Save" Grid.Row="1" HorizontalAlignment="Center" Width="50" Click="SaveStandProteins_click">
+            <Button.ToolTip>
+                <StackPanel>
+                    <TextBlock TextWrapping="Wrap"> Note: (1) The identifiers of the standard proteins are required to be the same as those of the proteins in the input files. (2) The number of standard proteins with different amounts should be three at least.
+                    </TextBlock>
+                </StackPanel>
+            </Button.ToolTip>
+        </Button>
+
+    </Grid>
+</Window>

@@ -1,0 +1,17 @@
+E:\ProteinQuantificationCode\ProteinQuantification\ProteinQuantification\bin\x86\Release\ProteinQuantification.exe.config
+E:\ProteinQuantificationCode\ProteinQuantification\ProteinQuantification\bin\x86\Release\ProteinQuantification.exe
+E:\ProteinQuantificationCode\ProteinQuantification\ProteinQuantification\bin\x86\Release\ProteinQuantification.pdb
+E:\ProteinQuantificationCode\ProteinQuantification\ProteinQuantification\obj\x86\Release\MainWindow.baml
+E:\ProteinQuantificationCode\ProteinQuantification\ProteinQuantification\obj\x86\Release\SetRegularExpression.baml
+E:\ProteinQuantificationCode\ProteinQuantification\ProteinQuantification\obj\x86\Release\SetStandProteins.baml
+E:\ProteinQuantificationCode\ProteinQuantification\ProteinQuantification\obj\x86\Release\MainWindow.g.cs
+E:\ProteinQuantificationCode\ProteinQuantification\ProteinQuantification\obj\x86\Release\SetRegularExpression.g.cs
+E:\ProteinQuantificationCode\ProteinQuantification\ProteinQuantification\obj\x86\Release\SetStandProteins.g.cs
+E:\ProteinQuantificationCode\ProteinQuantification\ProteinQuantification\obj\x86\Release\App.g.cs
+E:\ProteinQuantificationCode\ProteinQuantification\ProteinQuantification\obj\x86\Release\ProteinQuantification_MarkupCompile.cache
+E:\ProteinQuantificationCode\ProteinQuantification\ProteinQuantification\obj\x86\Release\ProteinQuantification.g.resources
+E:\ProteinQuantificationCode\ProteinQuantification\ProteinQuantification\obj\x86\Release\ProteinQuantification.Properties.Resources.resources
+E:\ProteinQuantificationCode\ProteinQuantification\ProteinQuantification\obj\x86\Release\ProteinQuantification.csproj.GenerateResource.Cache
+E:\ProteinQuantificationCode\ProteinQuantification\ProteinQuantification\obj\x86\Release\ProteinQuantification.exe
+E:\ProteinQuantificationCode\ProteinQuantification\ProteinQuantification\obj\x86\Release\ProteinQuantification.pdb
+E:\ProteinQuantificationCode\ProteinQuantification\ProteinQuantification\obj\x86\Release\ProteinQuantification.csprojResolveAssemblyReference.cache

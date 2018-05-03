@@ -1,0 +1,4 @@
+Name	Fraction	Experiment
+ZY_UPS2_A1_Yeast_0_6ug	1	UPS2_yeast
+ZY_UPS2_A2_Yeast_0_6ug	1	UPS2_yeast
+ZY_UPS2_A3_Yeast_0_6ug	1	UPS2_yeast

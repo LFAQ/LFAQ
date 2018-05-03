@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="BARTRegression.cpp" />
+    <ClCompile Include="BasicClass.cpp" />
+    <ClCompile Include="BootstrapLinearRegression.cpp" />
+    <ClCompile Include="Constants.cpp" />
+    <ClCompile Include="funs.cpp" />
+    <ClCompile Include="PepAttributeWorker.cpp" />
+    <ClCompile Include="ProteinAbsoluteQuan.cpp" />
+    <ClCompile Include="ProteinDigestion.cpp" />
+    <ClCompile Include="ProteinWorker.cpp" />
+    <ClCompile Include="QuantificationParam.cpp" />
+    <ClCompile Include="Regression.cpp" />
+    <ClCompile Include="rng.cpp" />
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="stepwise.cpp" />
+    <ClCompile Include="tree.cpp" />
+    <ClCompile Include="CLog.cpp" />
+    <ClCompile Include="bd.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BasicClass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BARTRegression.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BootstrapLinearRegression.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Constants.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="funs.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="info.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PepAttributeWorker.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ProteinDigestion.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ProteinWorker.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="QuantificationParam.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Regression.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="rng.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stepwise.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tree.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CLog.h" />
+    <ClInclude Include="ExtremeDistribution.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="bd.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{7194955b-ddd0-4b77-961c-1373c5a84897}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

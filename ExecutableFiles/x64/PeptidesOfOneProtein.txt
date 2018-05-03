@@ -1,0 +1,2 @@
+PeptideIndex	PeptideIntensity	
+1	112815000	
