@@ -3,7 +3,7 @@
 
 ## What is it?  
 
-LFAQ is an efficient tool for label-free absolute protein quantification based on a novel concept peptide quantification efficiency, which is learned by a semi-supervised machine learning method. 
+LFAQ is an novel label-free absolute protein quantification algorithm which can correct the biased MS intensities using the predicted peptide quantitative factors for all identified peptides. 
  
 ## The Latest Version
  

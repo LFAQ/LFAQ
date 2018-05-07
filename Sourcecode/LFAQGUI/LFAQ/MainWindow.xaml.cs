@@ -1680,7 +1680,7 @@ new ChangeStatusBar(UpdateStatusBar), "Finished!");
         }
         private void txtMaxMissedCleave_PreviewKeyDown(object sender, System.Windows.Input.KeyEventArgs e)
         {
-            if ((e.Key >= Key.D1 && e.Key <= Key.D9)//keyboard 1-9
+            if ((e.Key >= Key.D0 && e.Key <= Key.D9)//keyboard 1-9
                  || (e.Key >= Key.NumPad1 && e.Key <= Key.NumPad9))//keypad 1-9
             {
                 e.Handled = false;
