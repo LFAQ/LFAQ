@@ -268,8 +268,6 @@ so we need determine the attribute name according to the experiment design file.
 */
 void CLoadMaxQuantIO::mf_GetAttributesName(string ExperimentDesignPath)
 {
-	map<string, int> mapExperiments;
-	map<string, int>::iterator mapExperimentsIter;
 	ifstream fin(ExperimentDesignPath.c_str());
 	if (!fin)
 	{
@@ -278,18 +276,26 @@ void CLoadMaxQuantIO::mf_GetAttributesName(string ExperimentDesignPath)
 		flog.mf_Destroy();
 		exit(2);
 	}
-	string strTemp1, strTemp2;
-	int iTemp1 = 0, iTemp2 = 0;
-	m_iNumberOfExperiments = 0;
-	getline(fin, strTemp1);//jump the first row.
-	while (getline(fin, strTemp1))
+	map<string, int> mapAttrtibuteAndcolumns;
+	map<string, int>::iterator mapAttrtibuteAndcolumnsIter;
+	string strLine;
+
+	getline(fin, strLine);
+	GetAttributesFromFirstRow(strLine, mapAttrtibuteAndcolumns, "\t");
+	mapAttrtibuteAndcolumnsIter = mapAttrtibuteAndcolumns.find("Experiment");
+	int iExperimentColumn = mapAttrtibuteAndcolumnsIter->second;
+
+	map<string, int> mapExperiments;
+	map<string, int>::iterator mapExperimentsIter;
+	vector<string> vecStrTemps;
+
+	while (getline(fin, strLine))
 	{
-		iTemp1 = strTemp1.find("\t");
-		iTemp1 = strTemp1.find("\t", iTemp1 + 1);
-		iTemp2 = strTemp1.find("\n", iTemp1 + 1);
-		strTemp2 = strTemp1.substr(iTemp1 + 1, iTemp2 - iTemp1 - 1);
-		mapExperiments.insert(pair<string, int>(strTemp2, 0));		
+		vecStrTemps.clear();
+		vecStrTemps = split(strLine, "\t");
+		mapExperiments.insert(pair<string, int>(vecStrTemps[iExperimentColumn], 0));
 	}
+
 	m_iNumberOfExperiments = mapExperiments.size();
 
 	string strPeptideIntensityName;
