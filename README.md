@@ -1,14 +1,14 @@
 
 # LFAQ v1.0.0  
 ## Contents
-- [Overview](#Overview)  
-- [Repository Contents](#Repository-Contents)  
-- [System Requirements](#System-Requirements)  
-- [Documentation](#Documentation)
-- [The Latest Version](#The-Latest-Version)
-- [Licensing](#Licensing)
-- [Contacts](#Contacts)
-- [Acknowledgments](#Acknowledgments)
+- [Overview](#overview)  
+- [Repository Contents](#repository-contents)  
+- [System Requirements](#system-requirements)  
+- [Documentation](#documentation)
+- [The Latest Version](#the-latest-version)
+- [Licensing](#licensing)
+- [Contacts](#contacts)
+- [Acknowledgments](#acknowledgments)
 # Overview
 
 LFAQ is a novel algorithm for label-free absolute protein quantification, which can correct the biased MS intensities using the predicted peptide quantitative factors for all identified peptides.
