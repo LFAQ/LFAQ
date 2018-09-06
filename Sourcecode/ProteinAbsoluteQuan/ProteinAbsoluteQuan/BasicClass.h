@@ -197,6 +197,8 @@ string strim(string &str);
 vector<string> split(const string &str, const string& splitter);
 
 void GetAttributesFromFirstRow(char * pstr, map<string, int>& mapAttributesAndColumns, string sep="\t");
+void GetAttributesFromFirstRow(string str, map<string, int>& mapAttributesAndColumns, string sep = "\t");
+
 bool fStringToBool(string str,bool &bl);
 string fInt2String(int i);
 string fSize_t2String(size_t si);

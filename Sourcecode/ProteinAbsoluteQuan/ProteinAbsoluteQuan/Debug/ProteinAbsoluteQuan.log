@@ -1,0 +1,89 @@
+﻿生成启动时间为 2018/9/6 18:20:35。
+     1>项目“G:\InHouseSourceCode\Github\LFAQ\Sourcecode\ProteinAbsoluteQuan\ProteinAbsoluteQuan\ProteinAbsoluteQuan.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         I:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"H:\proteowizard-code\pwiz\libraries\boost_1_56_0" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D Debug_Mode /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\ProteinAbsoluteQuan.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ProteinWorker.cpp
+         ProteinWorker.cpp
+     1>h:\proteowizard-code\pwiz\libraries\boost_1_56_0\boost\format\alt_sstream_impl.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>g:\inhousesourcecode\github\lfaq\sourcecode\proteinabsolutequan\proteinabsolutequan\proteinworker.cpp(160): warning C4018: “<”: 有符号/无符号不匹配
+     1>g:\inhousesourcecode\github\lfaq\sourcecode\proteinabsolutequan\proteinabsolutequan\proteinworker.cpp(204): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>g:\inhousesourcecode\github\lfaq\sourcecode\proteinabsolutequan\proteinabsolutequan\proteinworker.cpp(352): warning C4018: “<”: 有符号/无符号不匹配
+     1>g:\inhousesourcecode\github\lfaq\sourcecode\proteinabsolutequan\proteinabsolutequan\proteinworker.cpp(456): warning C4018: “<”: 有符号/无符号不匹配
+     1>g:\inhousesourcecode\github\lfaq\sourcecode\proteinabsolutequan\proteinabsolutequan\proteinworker.cpp(484): warning C4018: “<”: 有符号/无符号不匹配
+     1>g:\inhousesourcecode\github\lfaq\sourcecode\proteinabsolutequan\proteinabsolutequan\proteinworker.cpp(635): warning C4244: “初始化”: 从“std::chrono::system_clock::rep”转换到“int”，可能丢失数据
+     1>g:\inhousesourcecode\github\lfaq\sourcecode\proteinabsolutequan\proteinabsolutequan\proteinworker.cpp(651): warning C4018: “<”: 有符号/无符号不匹配
+     1>g:\inhousesourcecode\github\lfaq\sourcecode\proteinabsolutequan\proteinabsolutequan\proteinworker.cpp(688): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>g:\inhousesourcecode\github\lfaq\sourcecode\proteinabsolutequan\proteinabsolutequan\proteinworker.cpp(690): warning C4018: “<”: 有符号/无符号不匹配
+     1>g:\inhousesourcecode\github\lfaq\sourcecode\proteinabsolutequan\proteinabsolutequan\proteinworker.cpp(704): warning C4018: “<”: 有符号/无符号不匹配
+     1>g:\inhousesourcecode\github\lfaq\sourcecode\proteinabsolutequan\proteinabsolutequan\proteinworker.cpp(777): warning C4018: “<”: 有符号/无符号不匹配
+     1>g:\inhousesourcecode\github\lfaq\sourcecode\proteinabsolutequan\proteinabsolutequan\proteinworker.cpp(812): warning C4018: “<”: 有符号/无符号不匹配
+     1>g:\inhousesourcecode\github\lfaq\sourcecode\proteinabsolutequan\proteinabsolutequan\proteinworker.cpp(863): warning C4018: “<”: 有符号/无符号不匹配
+     1>g:\inhousesourcecode\github\lfaq\sourcecode\proteinabsolutequan\proteinabsolutequan\proteinworker.cpp(918): warning C4018: “<”: 有符号/无符号不匹配
+     1>g:\inhousesourcecode\github\lfaq\sourcecode\proteinabsolutequan\proteinabsolutequan\proteinworker.cpp(969): warning C4018: “<”: 有符号/无符号不匹配
+     1>g:\inhousesourcecode\github\lfaq\sourcecode\proteinabsolutequan\proteinabsolutequan\proteinworker.cpp(1023): warning C4018: “<”: 有符号/无符号不匹配
+     1>g:\inhousesourcecode\github\lfaq\sourcecode\proteinabsolutequan\proteinabsolutequan\proteinworker.cpp(1075): warning C4018: “<”: 有符号/无符号不匹配
+     1>g:\inhousesourcecode\github\lfaq\sourcecode\proteinabsolutequan\proteinabsolutequan\proteinworker.cpp(1216): warning C4018: “<”: 有符号/无符号不匹配
+     1>g:\inhousesourcecode\github\lfaq\sourcecode\proteinabsolutequan\proteinabsolutequan\proteinworker.cpp(1508): warning C4018: “<”: 有符号/无符号不匹配
+     1>g:\inhousesourcecode\github\lfaq\sourcecode\proteinabsolutequan\proteinabsolutequan\proteinworker.cpp(1402): warning C4101: “stEnd”: 未引用的局部变量
+     1>g:\inhousesourcecode\github\lfaq\sourcecode\proteinabsolutequan\proteinabsolutequan\proteinworker.cpp(1402): warning C4101: “stStart”: 未引用的局部变量
+     1>g:\inhousesourcecode\github\lfaq\sourcecode\proteinabsolutequan\proteinabsolutequan\proteinworker.cpp(1551): warning C4018: “<”: 有符号/无符号不匹配
+     1>g:\inhousesourcecode\github\lfaq\sourcecode\proteinabsolutequan\proteinabsolutequan\proteinworker.cpp(1574): warning C4018: “<”: 有符号/无符号不匹配
+     1>g:\inhousesourcecode\github\lfaq\sourcecode\proteinabsolutequan\proteinabsolutequan\proteinworker.cpp(1709): warning C4018: “<”: 有符号/无符号不匹配
+     1>g:\inhousesourcecode\github\lfaq\sourcecode\proteinabsolutequan\proteinabsolutequan\proteinworker.cpp(1711): warning C4018: “<”: 有符号/无符号不匹配
+     1>g:\inhousesourcecode\github\lfaq\sourcecode\proteinabsolutequan\proteinabsolutequan\proteinworker.cpp(1729): warning C4018: “<”: 有符号/无符号不匹配
+     1>g:\inhousesourcecode\github\lfaq\sourcecode\proteinabsolutequan\proteinabsolutequan\proteinworker.cpp(1747): warning C4018: “<”: 有符号/无符号不匹配
+     1>g:\inhousesourcecode\github\lfaq\sourcecode\proteinabsolutequan\proteinabsolutequan\proteinworker.cpp(1753): warning C4018: “<”: 有符号/无符号不匹配
+     1>g:\inhousesourcecode\github\lfaq\sourcecode\proteinabsolutequan\proteinabsolutequan\proteinworker.cpp(1760): warning C4018: “<”: 有符号/无符号不匹配
+     1>g:\inhousesourcecode\github\lfaq\sourcecode\proteinabsolutequan\proteinabsolutequan\proteinworker.cpp(1766): warning C4018: “<”: 有符号/无符号不匹配
+     1>g:\inhousesourcecode\github\lfaq\sourcecode\proteinabsolutequan\proteinabsolutequan\proteinworker.cpp(1779): warning C4018: “<”: 有符号/无符号不匹配
+     1>g:\inhousesourcecode\github\lfaq\sourcecode\proteinabsolutequan\proteinabsolutequan\proteinworker.cpp(1810): warning C4018: “<”: 有符号/无符号不匹配
+     1>g:\inhousesourcecode\github\lfaq\sourcecode\proteinabsolutequan\proteinabsolutequan\proteinworker.cpp(1849): warning C4018: “<”: 有符号/无符号不匹配
+     1>g:\inhousesourcecode\github\lfaq\sourcecode\proteinabsolutequan\proteinabsolutequan\proteinworker.cpp(1865): warning C4018: “<”: 有符号/无符号不匹配
+     1>g:\inhousesourcecode\github\lfaq\sourcecode\proteinabsolutequan\proteinabsolutequan\proteinworker.cpp(2224): warning C4018: “<”: 有符号/无符号不匹配
+     1>g:\inhousesourcecode\github\lfaq\sourcecode\proteinabsolutequan\proteinabsolutequan\proteinworker.cpp(2231): warning C4018: “<”: 有符号/无符号不匹配
+     1>g:\inhousesourcecode\github\lfaq\sourcecode\proteinabsolutequan\proteinabsolutequan\proteinworker.cpp(2250): warning C4018: “<”: 有符号/无符号不匹配
+     1>g:\inhousesourcecode\github\lfaq\sourcecode\proteinabsolutequan\proteinabsolutequan\proteinworker.cpp(2262): warning C4018: “<”: 有符号/无符号不匹配
+     1>g:\inhousesourcecode\github\lfaq\sourcecode\proteinabsolutequan\proteinabsolutequan\proteinworker.cpp(2304): warning C4018: “<”: 有符号/无符号不匹配
+     1>g:\inhousesourcecode\github\lfaq\sourcecode\proteinabsolutequan\proteinabsolutequan\proteinworker.cpp(2348): warning C4018: “<”: 有符号/无符号不匹配
+     1>g:\inhousesourcecode\github\lfaq\sourcecode\proteinabsolutequan\proteinabsolutequan\proteinworker.cpp(2466): warning C4018: “<”: 有符号/无符号不匹配
+     1>g:\inhousesourcecode\github\lfaq\sourcecode\proteinabsolutequan\proteinabsolutequan\proteinworker.cpp(2470): warning C4018: “<”: 有符号/无符号不匹配
+     1>g:\inhousesourcecode\github\lfaq\sourcecode\proteinabsolutequan\proteinabsolutequan\proteinworker.cpp(2475): warning C4018: “<”: 有符号/无符号不匹配
+     1>g:\inhousesourcecode\github\lfaq\sourcecode\proteinabsolutequan\proteinabsolutequan\proteinworker.cpp(2482): warning C4018: “<”: 有符号/无符号不匹配
+     1>g:\inhousesourcecode\github\lfaq\sourcecode\proteinabsolutequan\proteinabsolutequan\proteinworker.cpp(2490): warning C4018: “<”: 有符号/无符号不匹配
+     1>g:\inhousesourcecode\github\lfaq\sourcecode\proteinabsolutequan\proteinabsolutequan\proteinworker.cpp(2496): warning C4018: “<”: 有符号/无符号不匹配
+     1>g:\inhousesourcecode\github\lfaq\sourcecode\proteinabsolutequan\proteinabsolutequan\proteinworker.cpp(2503): warning C4018: “<”: 有符号/无符号不匹配
+     1>g:\inhousesourcecode\github\lfaq\sourcecode\proteinabsolutequan\proteinabsolutequan\proteinworker.cpp(2511): warning C4018: “<”: 有符号/无符号不匹配
+     1>g:\inhousesourcecode\github\lfaq\sourcecode\proteinabsolutequan\proteinabsolutequan\proteinworker.cpp(2586): warning C4018: “<”: 有符号/无符号不匹配
+     1>g:\inhousesourcecode\github\lfaq\sourcecode\proteinabsolutequan\proteinabsolutequan\proteinworker.cpp(2742): warning C4018: “<=”: 有符号/无符号不匹配
+     1>g:\inhousesourcecode\github\lfaq\sourcecode\proteinabsolutequan\proteinabsolutequan\proteinworker.cpp(2951): warning C4101: “stEnd”: 未引用的局部变量
+     1>g:\inhousesourcecode\github\lfaq\sourcecode\proteinabsolutequan\proteinabsolutequan\proteinworker.cpp(2951): warning C4101: “stStart”: 未引用的局部变量
+     1>g:\inhousesourcecode\github\lfaq\sourcecode\proteinabsolutequan\proteinabsolutequan\proteinworker.cpp(3122): warning C4101: “stEnd”: 未引用的局部变量
+     1>g:\inhousesourcecode\github\lfaq\sourcecode\proteinabsolutequan\proteinabsolutequan\proteinworker.cpp(3122): warning C4101: “stStart”: 未引用的局部变量
+     1>g:\inhousesourcecode\github\lfaq\sourcecode\proteinabsolutequan\proteinabsolutequan\proteinworker.cpp(3311): warning C4101: “stEnd”: 未引用的局部变量
+     1>g:\inhousesourcecode\github\lfaq\sourcecode\proteinabsolutequan\proteinabsolutequan\proteinworker.cpp(3311): warning C4101: “stStart”: 未引用的局部变量
+     1>g:\inhousesourcecode\github\lfaq\sourcecode\proteinabsolutequan\proteinabsolutequan\proteinworker.cpp(3694): warning C4018: “<”: 有符号/无符号不匹配
+     1>g:\inhousesourcecode\github\lfaq\sourcecode\proteinabsolutequan\proteinabsolutequan\proteinworker.cpp(3698): warning C4018: “<”: 有符号/无符号不匹配
+     1>g:\inhousesourcecode\github\lfaq\sourcecode\proteinabsolutequan\proteinabsolutequan\proteinworker.cpp(2203): warning C4715: “CProteinWorker::mf_LoadProteinLFAQpep”: 不是所有的控件路径都返回值
+       Link:
+         I:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"G:\InHouseSourceCode\Github\LFAQ\Sourcecode\ProteinAbsoluteQuan\Debug\ProteinAbsoluteQuan.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"G:\InHouseSourceCode\Github\LFAQ\Sourcecode\ProteinAbsoluteQuan\Debug\ProteinAbsoluteQuan.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:\InHouseSourceCode\Github\LFAQ\Sourcecode\ProteinAbsoluteQuan\Debug\ProteinAbsoluteQuan.lib" /MACHINE:X86 /SAFESEH Debug\BARTRegression.obj
+         Debug\BasicClass.obj
+         Debug\bd.obj
+         Debug\BootstrapLinearRegression.obj
+         Debug\CLog.obj
+         Debug\Constants.obj
+         Debug\funs.obj
+         Debug\PepAttributeWorker.obj
+         Debug\ProteinAbsoluteQuan.obj
+         Debug\ProteinDigestion.obj
+         Debug\ProteinWorker.obj
+         Debug\QuantificationParam.obj
+         Debug\Regression.obj
+         Debug\rng.obj
+         Debug\stdafx.obj
+         Debug\stepwise.obj
+         Debug\tree.obj
+         ProteinAbsoluteQuan.vcxproj -> G:\InHouseSourceCode\Github\LFAQ\Sourcecode\ProteinAbsoluteQuan\Debug\ProteinAbsoluteQuan.exe
+     1>已完成生成项目“G:\InHouseSourceCode\Github\LFAQ\Sourcecode\ProteinAbsoluteQuan\ProteinAbsoluteQuan\ProteinAbsoluteQuan.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:04.43

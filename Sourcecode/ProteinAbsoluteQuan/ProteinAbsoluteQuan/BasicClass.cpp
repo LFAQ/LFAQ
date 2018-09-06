@@ -957,6 +957,33 @@ void GetAttributesFromFirstRow(char * pstr, map<string, int>& mapAttributesAndCo
     }
     mapAttributesAndColumns.insert(pair<string, int>(pstr, icolumns));
 }
+void GetAttributesFromFirstRow(string str, map<string, int>& mapAttributesAndColumns, string sep)
+{
+	mapAttributesAndColumns.clear();
+	if (str == "")
+	{
+		return;
+	}
+	int iColumn = 0;
+	int iBegin = 0, iEnd = 0;
+	iEnd = str.find(sep, iBegin);
+	string strsub;
+	while (iEnd!=str.npos && iBegin < str.size() - 1)
+	{
+		strsub = str.substr(iBegin, iEnd - iBegin);
+		mapAttributesAndColumns.insert(pair<string, int>(strsub, iColumn));
+		iColumn++;
+		iBegin = iEnd + 1;
+		iEnd = str.find(sep, iBegin);
+	}
+	if (iBegin < str.size() - 1)
+	{
+		iEnd = str.size();
+		strsub = str.substr(iBegin, iEnd - iBegin);
+		mapAttributesAndColumns.insert(pair<string, int>(strsub, iColumn));
+	}
+}
+
 
 bool fStringToBool(string str, bool &bl)
 {

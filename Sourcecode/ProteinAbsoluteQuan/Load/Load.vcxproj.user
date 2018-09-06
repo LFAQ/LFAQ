@@ -17,7 +17,7 @@
     <LocalDebuggerEnvironment>Path=D:\software_set\vs2013\contrib_win64_build\lib</LocalDebuggerEnvironment>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <LocalDebuggerCommandArguments>G:\ProgramResult\checkLFAQ\BUPS2_yeast\BUPS2_yeast.params</LocalDebuggerCommandArguments>
+    <LocalDebuggerCommandArguments>G:\data\TestLFAQ\mzQuantMLTestData\mzQuantMLTestData.params</LocalDebuggerCommandArguments>
     <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
   </PropertyGroup>
 </Project>

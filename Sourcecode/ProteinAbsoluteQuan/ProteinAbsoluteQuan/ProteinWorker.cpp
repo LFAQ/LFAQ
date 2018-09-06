@@ -510,6 +510,13 @@ void CProteinWorker::mf_DetermineTrainSet()
 			}
 		}
 	}
+	if (iTrainPeptidesNum < NumberOfFeature)
+	{
+		cout << "Error:\tToo few training samples!" << endl;
+		flog.mf_Input("Error:\tToo few training samples!\n");
+		flog.mf_Destroy();
+		exit(-1);
+	}
 	cout << "There are " << iTrainPeptidesNum << " peptides in the train set.\n";
 	flog.mf_Input("There are " + fInt2String(iTrainPeptidesNum) + " peptides in the train set.\n");
 }
@@ -3444,19 +3451,24 @@ int CProteinWorker::mf_GetExperimentNames(CQuantificationParam trainparam)
 	}
 	if (trainparam.m_strIdentifySoftwareType == "maxquant")
 	{
+		map<string, int> mapAttrtibuteAndcolumns;
+		map<string, int>::iterator mapAttrtibuteAndcolumnsIter;
+		string strLine;
+
+		getline(fin, strLine);
+		GetAttributesFromFirstRow(strLine, mapAttrtibuteAndcolumns, "\t");
+		mapAttrtibuteAndcolumnsIter = mapAttrtibuteAndcolumns.find("Experiment");
+		int iExperimentColumn = mapAttrtibuteAndcolumnsIter->second;
+
 		map<string, int> mapExperiments;
 		map<string, int>::iterator mapExperimentsIter;
-		string strTemp1, strTemp2;
-		int iTemp1 = 0, iTemp2 = 0;
-		m_iNumberOfExperiments = 0;
-		getline(fin, strTemp1);//jump the first row
-		while (getline(fin, strTemp1))
+		vector<string> vecStrTemps;
+
+		while (getline(fin, strLine))
 		{
-			iTemp1 = strTemp1.find("\t");
-			iTemp1 = strTemp1.find("\t", iTemp1 + 1);
-			iTemp2 = strTemp1.find("\n", iTemp1 + 1);
-			strTemp2 = strTemp1.substr(iTemp1 + 1, iTemp2 - iTemp1 - 1);
-			mapExperiments.insert(pair<string, int>(strTemp2, 0));
+			vecStrTemps.clear();
+			vecStrTemps = split(strLine, "\t");
+			mapExperiments.insert(pair<string, int>(vecStrTemps[iExperimentColumn], 0));
 		}
 
 		m_iNumberOfExperiments = mapExperiments.size();

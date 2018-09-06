@@ -6,7 +6,7 @@
     <LocalDebuggerDebuggerType>NativeOnly</LocalDebuggerDebuggerType>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <LocalDebuggerCommandArguments>G:\ProgramResult\checkLFAQ\BUPS2_yeast_Separate\BUPS2_yeast.params</LocalDebuggerCommandArguments>
+    <LocalDebuggerCommandArguments>G:\data\TestLFAQ\LiChenData\parameters20180906-16-07-39.params</LocalDebuggerCommandArguments>
     <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
